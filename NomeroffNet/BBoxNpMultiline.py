@@ -7,7 +7,7 @@ from typing import List, Any, Tuple, Dict
 from NpMultiline import default
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__))))
-from tools import (fline,
+from .tools import (fline,
                    distance,
                    linearLineMatrix,
                    getYByMatrix,

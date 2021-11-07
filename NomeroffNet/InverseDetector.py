@@ -9,7 +9,7 @@ from pytorch_lightning.callbacks import ModelCheckpoint
 from pytorch_lightning.callbacks import LearningRateMonitor
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__))))
-from tools import (modelhub,
+from .tools import (modelhub,
                    get_mode_torch)
 from data_modules.numberplate_inverse_data_module import InverseNetDataModule
 from nnmodels.numberplate_inverse_model import NPInverseNet

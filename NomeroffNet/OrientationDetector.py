@@ -8,7 +8,7 @@ import pytorch_lightning as pl
 from pytorch_lightning.callbacks import ModelCheckpoint
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__))))
-from tools import (modelhub,
+from .tools import (modelhub,
                    get_mode_torch)
 from data_modules.numberplate_orientation_data_module import OrientationDataModule, show_data
 from nnmodels.numberplate_orientation_model import NPOrientationNet

@@ -5,7 +5,7 @@ import math
 import collections
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__))))
-from tools.mcm import (modelhub,
+from .tools.mcm import (modelhub,
                         get_mode_torch)
 info = modelhub.download_repo_for_model("craft_mlt")
 CRAFT_DIR = info["repo_path"]
